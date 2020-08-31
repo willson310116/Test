@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.linting.enabled": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily":"Source Code Pro for Powerline",
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorTheme": "Default Dark+",
+    "activestate.promptRuntimeCreation": false,
+    
+}
