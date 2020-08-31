@@ -2,7 +2,7 @@ import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
 import seaborn as sns  # visualization tool
-##
+
 # Read data from csv save as DataFrame
 df = pd.read_csv('pokemon.csv')
 # Show every columns in the DataFrame
