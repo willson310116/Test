@@ -37,7 +37,7 @@ df = df[~df["Name"].isnull()].reset_index(drop=True)
 
 df = df.drop(["#"],axis=1)
 #df = df.drop(["#"],axis=1)
-df.info()
+#df.info()
 
 
 
