@@ -43,7 +43,7 @@ print(df["Type 2"][4])
 # 把 Type 2 是 NaN 用他自己的 Type 1 代替
 # = df["Type 2"].replace(np.nan, df["Type 1"])
 # 把 Type 2 是 NaN 用他自己的 Type 1 代替
-df = df["Type 2"].replace("Poison", df["Type 1"])
+df = df["Type 2"].replace(np.NaN, df["Type 1"])
 print(df.head(5))
 
 
